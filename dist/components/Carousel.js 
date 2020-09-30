@@ -45,7 +45,8 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var styles = {
     root: {
         position: "relative",
-        overflow: "hidden"
+        width:"72%",
+        overflow:"visible !important",
     },
     indicators: {
         width: "100%",
@@ -87,14 +88,18 @@ var styles = {
     button: {
         margin: "0 10px",
         position: "relative",
-        backgroundColor: "#494949",
+        backgroundColor: "transparent",
         top: "30px",
         color: "white",
         fontSize: "30px",
         transition: "200ms",
         cursor: "pointer",
+        transform: "rotate(90deg) !important",
+        opacity:" 1 !important",
         '&:hover': {
-            opacity: "0.6 !important"
+            opacity: "0.4 !important",
+            backgroundColor:"black !important",
+           
         }
     },
     fullHeightHoverButton: {
@@ -107,10 +112,16 @@ var styles = {
         opacity: "0"
     },
     next: {
-        right: 0
+        position: "absolute !important",
+        marginTop: "15vh !important",
+        opacity: "1 !important",
+        right:"11.5vw",
     },
     prev: {
-        left: 0
+        position: "absolute !important",
+        marginTop: "-12vh !important",
+        opacity: "1 !important",
+        right: "11.5vw"
     }
 };
 
