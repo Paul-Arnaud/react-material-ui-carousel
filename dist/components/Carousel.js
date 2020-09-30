@@ -88,7 +88,7 @@ var styles = {
     button: {
         margin: "0 10px",
         position: "relative",
-        backgroundColor: "#494949",
+        backgroundColor: "transparent",
         top: "30px",
         color: "white",
         fontSize: "30px",
