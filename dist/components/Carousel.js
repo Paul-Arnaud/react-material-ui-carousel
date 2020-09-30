@@ -94,8 +94,12 @@ var styles = {
         fontSize: "30px",
         transition: "200ms",
         cursor: "pointer",
+        transform: "rotate(90deg) !important",
+        opacity:" 1 !important",
         '&:hover': {
-            opacity: "0.6 !important"
+            opacity: "0.4 !important",
+            backgroundColor:"black !important",
+           
         }
     },
     fullHeightHoverButton: {
