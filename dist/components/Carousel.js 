@@ -46,7 +46,7 @@ var styles = {
     root: {
         position: "relative",
         width:"72%",
-        overflow:"visible !important",
+        overflow:"visible !important"
     },
     indicators: {
         width: "100%",
@@ -111,7 +111,7 @@ var styles = {
         position: "absolute !important",
         marginTop: "15vh !important",
         opacity: "1 !important",
-        right:"11.5vw",
+        right:"11.5vw"
     },
     prev: {
         position: "absolute !important",
