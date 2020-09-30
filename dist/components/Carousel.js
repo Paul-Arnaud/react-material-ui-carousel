@@ -115,14 +115,15 @@ var styles = {
         position: "absolute !important",
         marginTop: "15vh !important",
         opacity: "1 !important",
-        right:"11.5vw"
+        right:"45%"
     },
     prev: {
         position: "absolute !important",
         marginTop: "-12vh !important",
         opacity: "1 !important",
-        right: "11.5vw"
+        right: "45%"
     }
+
 };
 
 var sanitizeProps = function sanitizeProps(props) {
