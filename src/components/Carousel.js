@@ -10,7 +10,8 @@ import { useSwipeable } from 'react-swipeable';
 const styles = {
     root: {
         position: "relative",
-        overflow: "hidden"
+        width:"72%",
+        overflow:"visible !important",
     },
     indicators: {
         width: "100%",
@@ -52,32 +53,42 @@ const styles = {
     button: {
         margin: "0 10px",
         position: "relative",
-        backgroundColor: "#494949",
+        backgroundColor: "transparent",
         top: "30px",
         color: "white",
         fontSize: "30px",
         transition: "200ms",
         cursor: "pointer",
+        transform: "rotate(90deg) !important",
+        opacity:" 1 !important",
         '&:hover': {
-            opacity: "0.6 !important"
+            opacity: "0.4 !important",
+            backgroundColor:"black !important",
+           
         }
     },
     fullHeightHoverButton: {
         top: "calc(50% - 20px) !important"
     },
-    buttonVisible:{
+    buttonVisible: {
         opacity: "0.6"
     },
-    buttonHidden:{
-        opacity: "0",
+    buttonHidden: {
+        opacity: "0"
     },
     next: {
-        right: 0
+        position: "absolute !important",
+        marginTop: "15vh !important",
+        opacity: "1 !important",
+        right:"11.5vw",
     },
     prev: {
-        left: 0
+        position: "absolute !important",
+        marginTop: "-12vh !important",
+        opacity: "1 !important",
+        right: "11.5vw"
     }
-}
+};
 
 const sanitizeProps = (props) =>
 {
