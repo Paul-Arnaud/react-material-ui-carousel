@@ -10,7 +10,7 @@ import { useSwipeable } from 'react-swipeable';
 const styles = {
     root: {
         position: "relative",
-        width:"72%",
+        width:"80%",
         overflow:"visible !important",
     },
     indicators: {

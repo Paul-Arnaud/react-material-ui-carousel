@@ -45,7 +45,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var styles = {
     root: {
         position: "relative",
-        width:"72%",
+        width:"80%",
         overflow:"visible !important"
     },
     indicators: {
